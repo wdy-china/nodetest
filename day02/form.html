@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <form action="http://localhost:3000/dopost" enctype="multipart/form-data" method="post">
+        用户名：<input type="text" name="title"/><br/>
+        密码：&nbsp;&nbsp;&nbsp;<input type="password" name="password"/><br/>
+        <div style="width: 200px;height: 300px;border:1px solid black;">
+             <input type="file" name="pic" multiple="multiple"/><br/>
+        </div>
+        <input type="submit" value="提交"/>
+    </form>
+</body>
+</html>
